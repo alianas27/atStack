@@ -687,3 +687,140 @@
     width: 1360px;
   }
   
+
+
+
+  /* ============================= */
+/*       MOBILE RESPONSIVE      */
+/* ============================= */
+@media (max-width: 768px) {
+    .hero {
+      padding: 40px 20px;
+      border-radius: 0px 0px 40px 40px;
+    }
+  
+
+    .nav-links,
+  .social-icons,
+  .contact-button {
+    display: none !important;
+  }
+
+    .navbar {
+        width: 390px;
+      flex-direction: column;
+      padding: 32px 20px;
+      align-items: flex-start;
+      text-align: center;
+    }
+    
+    .nav-icons {
+
+    display: none;} 
+
+    .logo {
+        width: 100%;
+
+      }
+  
+      .logo img {
+        
+        justify-content: center !important;
+      }
+  
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 100px;
+      gap: 40px;
+    }
+  
+    .text-section h1 {
+      font-size: 48px;
+      line-height: 1.1;
+    }
+  
+    .text-section p {
+      font-size: 14px;
+      max-width: 100%;
+    }
+  
+    .image-section img {
+      display: none !important;
+    }
+  
+    .about-header h2 {
+      font-size: 40px;
+    }
+  
+    .team-members {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+    }
+  
+    .member-wrapper {
+      max-width: 90%;
+    }
+  
+    .member-card {
+      position: relative;
+      transform: none !important;
+      height: auto;
+      padding: 24px;
+    }
+  
+    .what-we-do {
+      margin: 0 20px;
+      border-radius: 20px;
+    }
+  
+    .what-we-do h2 {
+      font-size: 32px;
+      margin: 0 20px 30px;
+    }
+  
+    .service-row {
+      padding: 24px 20px;
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .service-title {
+      font-size: 18px;
+    }
+  
+    .service-desc {
+      font-size: 13px;
+    }
+  
+    .cta-box {
+      flex-direction: column;
+      padding: 20px;
+      margin: 40px 20px;
+    }
+  
+    .cta-box p {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .contact-button {
+      padding: 10px 16px;
+      font-size: 14px;
+    }
+  
+    .clients-title {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .bg-floating {
+      display: none;
+    }
+  }
+  
